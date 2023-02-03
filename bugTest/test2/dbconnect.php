@@ -1,6 +1,4 @@
 <?php
-// セッション開始
-session_start();
 // DBサーバのURL
 $db['host'] = "localhost";
 // ユーザー名

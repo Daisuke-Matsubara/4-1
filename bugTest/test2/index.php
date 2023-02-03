@@ -4,7 +4,6 @@ require 'dbconnect.php';
 if(!isset($_SESSION)){
     session_start();
 }
-include_once("dbconnect.php");
 
 // エラーメッセージ、登録完了メッセージの初期化
 $errorMessage = "";
